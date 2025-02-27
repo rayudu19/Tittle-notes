@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #2f72d7;
+}
+
+.App {
+  width: 100%;
+  max-width: 800px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Note Form */
+.MuiTextField-root {
+  margin-bottom: 10px;
+}
+
+.MuiButton-contained {
+  margin-top: 10px;
+}
+
+.MuiGrid-item {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Card Styling */
+.MuiCard-root {
+  margin-bottom: 20px;
+}
+
+.MuiCardContent-root {
+  padding: 16px;
+}
+
+.MuiTypography-h6 {
+  font-weight: bold;
+}
+
+.MuiTypography-body2 {
+  color: #555;
+}
+
+.MuiIconButton-root {
+  padding: 8px;
+}
